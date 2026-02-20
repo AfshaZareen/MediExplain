@@ -1,7 +1,8 @@
 import React, { useState, useCallback } from 'react';
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:8000';
+// const API_BASE_URL = 'http://localhost:8000';
+const API_BASE_URL = process.env.REACT_APP_API_URL;
 
 const COLORS = {
   HIGH:   { bg: '#FEF2F2', border: '#FCA5A5', text: '#DC2626', badge: '#DC2626' },

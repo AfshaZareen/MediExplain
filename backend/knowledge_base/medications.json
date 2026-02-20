@@ -1,0 +1,62 @@
+{
+  "Metformin": {
+    "category": "Antidiabetic (Biguanide)",
+    "purpose": "Controls blood sugar in type 2 diabetes by reducing glucose production in the liver",
+    "side_effects": ["Nausea", "Diarrhea", "Stomach upset", "Metallic taste in mouth"],
+    "precautions": "Take with food to reduce stomach upset. Avoid alcohol. Inform doctor before any surgery or CT scan with contrast."
+  },
+  "Aspirin": {
+    "category": "Antiplatelet / NSAID",
+    "purpose": "Prevents blood clots, reduces fever and pain, used for heart attack prevention",
+    "side_effects": ["Stomach irritation", "Bleeding risk", "Ulcers with long-term use"],
+    "precautions": "Avoid if you have stomach ulcers. Take with food. Inform doctor before surgery."
+  },
+  "Atorvastatin": {
+    "category": "Statin (Cholesterol-lowering)",
+    "purpose": "Lowers LDL (bad) cholesterol and reduces risk of heart attack and stroke",
+    "side_effects": ["Muscle pain or weakness", "Liver issues (rare)", "Headache", "Joint pain"],
+    "precautions": "Avoid grapefruit juice. Get regular liver function tests. Report any unexplained muscle pain immediately."
+  },
+  "Lisinopril": {
+    "category": "ACE Inhibitor",
+    "purpose": "Treats high blood pressure and heart failure, protects kidneys in diabetes",
+    "side_effects": ["Dry cough", "Dizziness", "High potassium levels"],
+    "precautions": "Avoid in pregnancy. Monitor kidney function and potassium levels regularly."
+  },
+  "Amlodipine": {
+    "category": "Calcium Channel Blocker",
+    "purpose": "Treats high blood pressure and chest pain (angina)",
+    "side_effects": ["Swelling in ankles", "Flushing", "Dizziness", "Headache"],
+    "precautions": "Do not stop suddenly. Avoid grapefruit. Rise slowly from sitting to avoid dizziness."
+  },
+  "Omeprazole": {
+    "category": "Proton Pump Inhibitor (PPI)",
+    "purpose": "Reduces stomach acid; treats acid reflux, ulcers, and GERD",
+    "side_effects": ["Headache", "Diarrhea", "Nausea", "Low magnesium with long-term use"],
+    "precautions": "Take 30 minutes before meals. Long-term use may affect bone density and B12 absorption."
+  },
+  "Paracetamol": {
+    "category": "Analgesic / Antipyretic",
+    "purpose": "Relieves mild to moderate pain and reduces fever",
+    "side_effects": ["Liver damage with overdose (very important)", "Nausea (rare)"],
+    "precautions": "Never exceed 4g per day (4000mg). Avoid alcohol. Dangerous in overdose - seek help immediately if overdose suspected."
+  },
+  "Insulin": {
+    "category": "Antidiabetic (Hormone)",
+    "purpose": "Controls blood sugar in type 1 and type 2 diabetes when oral medications are insufficient",
+    "side_effects": ["Low blood sugar (hypoglycemia)", "Weight gain", "Injection site reactions"],
+    "precautions": "Always carry sugar in case of low blood sugar. Store insulin in refrigerator. Never skip meals after injection."
+  },
+  "Amoxicillin": {
+    "category": "Antibiotic (Penicillin)",
+    "purpose": "Treats bacterial infections of ear, throat, lungs, skin, and urinary tract",
+    "side_effects": ["Diarrhea", "Nausea", "Allergic reactions (rash, hives)"],
+    "precautions": "Complete the full course even if feeling better. Inform doctor about penicillin allergy."
+  },
+  "Azithromycin": {
+    "category": "Antibiotic (Macrolide)",
+    "purpose": "Treats bacterial infections including pneumonia, skin, and sexually transmitted infections",
+    "side_effects": ["Nausea", "Diarrhea", "Stomach pain", "Heart rhythm changes (rare)"],
+    "precautions": "Complete the full course. May interact with antacids - take 1 hour before or 2 hours after."
+  }
+}

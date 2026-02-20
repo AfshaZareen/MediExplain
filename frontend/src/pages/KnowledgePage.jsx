@@ -16,15 +16,15 @@ export default function KnowledgePage() {
   const [search,setSearch]=useState('');
 
   useEffect(()=>{
-    axios.get(`${API}/knowledge/tests`).then(r=>setTests(r.data.tests)).catch(()=>setTests(FB_TESTS));
-    axios.get(`${API}/knowledge/medications`).then(r=>setMeds(r.data.medications)).catch(()=>setMeds(FB_MEDS));
+    axios.get(`${process.env.REACT_APP_API_URL}/knowledge/tests`).then(r=>setTests(r.data.tests)).catch(()=>setTests(FB_TESTS));
+    axios.get(`${process.env.REACT_APP_API_URL}/knowledge/medications`).then(r=>setMeds(r.data.medications)).catch(()=>setMeds(FB_MEDS));
   },[]);
 
   const loadDet=async name=>{
     setSel(name);setDet(null);setLoad(true);
     try {
       const ep=tab==='tests'?'test':'medication';
-      const r=await axios.get(`${API}/knowledge/${ep}/${name}`);
+      const r=await axios.get(`${process.env.REACT_APP_API_URL}/knowledge/${ep}/${name}`);
       setDet(r.data);
     } catch{} finally{setLoad(false);}
   };

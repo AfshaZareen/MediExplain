@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const API = 'http://localhost:8000';
+// const API = 'http://localhost:8000';
+const API_BASE_URL = process.env.REACT_APP_API_URL;
 const FB_TESTS = ['Hemoglobin','WBC','RBC','FBS','HbA1c','SGPT','SGOT','Cholesterol','LDL','HDL','Triglycerides','Creatinine','TSH','Sodium','Potassium'];
 const FB_MEDS  = ['Metformin','Aspirin','Atorvastatin','Lisinopril','Amlodipine','Omeprazole','Paracetamol','Insulin','Amoxicillin','Azithromycin'];
 

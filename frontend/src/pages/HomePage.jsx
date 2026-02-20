@@ -2,7 +2,7 @@ import React, { useState, useCallback } from 'react';
 import axios from 'axios';
 
 // const API = 'http://localhost:8000';
-const API_BASE_URL = process.env.REACT_APP_API_URL;
+// const API_BASE_URL = process.env.REACT_APP_API_URL;
 const LANG_LABELS = { en:'🇺🇸 English', hi:'🇮🇳 Hindi', bn:'Bengali', ta:'Tamil', te:'Telugu', mr:'Marathi' };
 const RC = {
   HIGH:   { color:'#dc2626', bg:'#fef2f2',              border:'rgba(220,38,38,0.25)',  icon:'🔴', msg:'Please consult your doctor as soon as possible.' },

@@ -40,8 +40,8 @@ export default function HomePage() {
     setLoad(true); setError(''); setResult(null); setSaved(false);
     try {
       const fd = new FormData(); fd.append('file', file);
-      const up = await axios.post(`${process.env.REACT_APP_API_URL}/upload/report`, fd, { headers:{'Content-Type':'multipart/form-data'} });
-      const pr = await axios.post(`${process.env.REACT_APP_API_URL}/process/report/${up.data.report_id}`, null, {
+      const up = await axios.post(`${API}/upload/report`, fd, { headers:{'Content-Type':'multipart/form-data'} });
+      const pr = await axios.post(`${API}/process/report/${up.data.report_id}`, null, {
         params:{ file_path:up.data.file_path, patient_age:info.age||null, patient_gender:info.gender, language:info.language },
       });
       setResult(pr.data);
